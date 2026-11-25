@@ -1,7 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12412.261 stable
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trabajo practico banco", "trabajo practico banco\trabajo practico banco.csproj", "{A30DBF95-3BB7-4985-83BF-3E2728A470D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capa datos", "capa datos\capa datos.csproj", "{F7B536E3-AA16-42D0-A11B-033494CCC398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capanegocio", "capanegocio\capanegocio.csproj", "{EA68128C-5EB0-40BB-AD0A-E57512E14A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capaentidad", "capaentidad\capaentidad.csproj", "{EC41B582-BCE6-4333-9842-EA9CD14262DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +21,23 @@ Global
 		{A30DBF95-3BB7-4985-83BF-3E2728A470D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A30DBF95-3BB7-4985-83BF-3E2728A470D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A30DBF95-3BB7-4985-83BF-3E2728A470D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B536E3-AA16-42D0-A11B-033494CCC398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B536E3-AA16-42D0-A11B-033494CCC398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B536E3-AA16-42D0-A11B-033494CCC398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B536E3-AA16-42D0-A11B-033494CCC398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA68128C-5EB0-40BB-AD0A-E57512E14A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA68128C-5EB0-40BB-AD0A-E57512E14A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA68128C-5EB0-40BB-AD0A-E57512E14A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA68128C-5EB0-40BB-AD0A-E57512E14A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC41B582-BCE6-4333-9842-EA9CD14262DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC41B582-BCE6-4333-9842-EA9CD14262DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC41B582-BCE6-4333-9842-EA9CD14262DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC41B582-BCE6-4333-9842-EA9CD14262DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5459208-CD60-44E2-AE4B-9165F23A8B35}
 	EndGlobalSection
 EndGlobal
